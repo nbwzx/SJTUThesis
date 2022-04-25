@@ -1327,6 +1327,9 @@
     mathescape=true
   }
 }
+\newcommand\cited[1]{%
+  \hspace{-9pt}\cite{#1}\hspace{9pt}%
+}
 \endinput
 %%
 %% End of file `sjtuthesis.cls'.
